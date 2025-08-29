@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Recommender</title>
+  <style>
+    .suggestion-item {
+      padding: 5px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+    }
+    .suggestion-item:hover {
+      background: #eee;
+    }
+  </style>
+</head>
+<body>
+  <h2>Movie Recommendation System</h2>
+  <input id="movieInput" type="text" onkeyup="getSuggestions()" placeholder="Type a movie name">
+  <button onclick="getRecommendations()">Get Recommendations</button>
+  <div id="suggestions"></div>
+  <ul id="recommendations"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
