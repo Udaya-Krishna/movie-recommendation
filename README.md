@@ -52,11 +52,6 @@ uvicorn ml_model.main:app --reload
 3. Deploy from GitHub
 4. Set environment variable: `TMDB_API_KEY`
 
-### Other Platforms
-- **Heroku**: Uses Procfile
-- **Google Cloud Run**: `gcloud run deploy --source .`
-- **AWS Elastic Beanstalk**: Upload as ZIP
-
 ## Environment Variables
 
 - `TMDB_API_KEY`: Your TMDB API key for movie posters (optional)
